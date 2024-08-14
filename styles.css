@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #3c9bdc;
+}
+
+h2 {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.bmi-calculator {
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-calculate, .btn-reset, .btn1 {
+    background-color: #3c9bdc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.btn1 {
+    background-color: #3c9bdc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.btn-calculate:hover, .btn-reset:hover {
+    background-color: #357ebd;
+}
+
+#result {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+#bmi {
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+#result2 {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.bmi-table {
+    margin-bottom: 20px;
+}
+
+.bmi-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.bmi-table th, .bmi-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.bmi-table th {
+    background-color: #3c9bdc;
+    color: white;
+}
+
+.note {
+    margin-top: 40px;
+    font-size: 12px;
+    color: #777;
+    text-align: center;
+}
